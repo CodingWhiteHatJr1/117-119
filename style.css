@@ -1,0 +1,36 @@
+body{
+    background-color:lightgoldenrodyellow;
+    text-align: center; 
+}
+#name{
+    color:darkred;
+    font-family: fantasy;
+    font-size: 30px;
+    font-weight: 300;
+    border:2px ridge lightcoral;
+    border-width: 5px 10px;
+    padding: 5px;
+}
+#showSketch{
+    float: right;
+}
+p{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: monospace;
+    color: brown;
+    font-weight: 200;
+}
+canvas{
+    border:5px outset lightseagreen;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes example{
+    from{box-shadow: 5px 5px 45px lightgreen;}
+    to{box-shadow: 5px 5px 45px lightsalmon;}
+
+}
